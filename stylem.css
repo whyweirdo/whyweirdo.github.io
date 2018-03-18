@@ -1,0 +1,47 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #9dadb4;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-indent: 20px;
+}
+
+h3 {
+    background-color: #9dadb4;
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.dt {
+    text-align: center;
+}
+
+.aa{
+    text-align: center;
+    color:rgb(175, 162, 162);
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 0;
+    background-image: url("bg.jpg")
+}
