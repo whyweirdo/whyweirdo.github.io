@@ -22,11 +22,26 @@ p {
     text-indent: 20px;
 }
 
-h3 {
-    background-color: #9dadb4;
+.hh3 {
+    background-color: #9dadb4;;
     color: white;
     line-height: 30px;
     padding-left: 10px;
+    animation:myfirst 10s;
+}
+
+@keyframes myfirst{
+    from{background-color: #9de076;}
+    to{background-color: #9dadb4;}
+}
+
+.head{
+    text-align: center;
+    background-color:  rgb(49, 181, 233);
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
 }
 
 .dt {
@@ -44,4 +59,23 @@ h3 {
     padding: 10px 20px;
     margin-top: 0;
     background-image: url("bg.jpg")
+}
+
+@media screen {
+    .container{
+        width:100%;
+    }
+}
+
+#trans{
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    background-color: rgb(170, 207, 231);
+    padding: 10px 10px 10px 10px;
+    transition:all 1s ease;
+}
+#trans:hover{
+    background-color: rgb(158, 174, 196);
 }
