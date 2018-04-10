@@ -22,6 +22,9 @@ p {
     text-indent: 20px;
 }
 
+/* h3{
+    padding-left: 10px; 
+} */
 .hh3 {
     background-color: #9dadb4;;
     color: white;
@@ -56,9 +59,17 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 20px ;
     margin-top: 0;
-    background-image: url("bg.jpg")
+    /* background-image: url("bg.jpg"); */
+}
+
+.contain {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px ;
+    margin-top: 0;
+    background-image: url("bg.jpg");
 }
 
 @media screen {
@@ -68,14 +79,14 @@ p {
 }
 
 #trans{
-    text-align: center;
+    /* text-align: center;
     width: 100px;
     height: 20px;
-    margin: 0 auto;
-    background-color: rgb(170, 207, 231);
-    padding: 10px 10px 10px 10px;
+    margin: 0 auto; */
+    color: rgb(40, 108, 148);
+    /* padding: 10px 10px 10px 10px; */
     transition:all 1s ease;
 }
 #trans:hover{
-    background-color: rgb(158, 174, 196);
+    color: rgb(170, 200, 240);
 }
